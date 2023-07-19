@@ -355,6 +355,11 @@ i{
     .top img{
         left: -1px;
     }
+    .bottom img{
+        width: 700px;
+        height: 100%;
+        margin-left: 900px;
+    }
     footer{
         width: 900px;
 
