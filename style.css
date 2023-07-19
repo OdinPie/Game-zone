@@ -307,5 +307,61 @@ i{
 
 /* ----Responsive----- */
 
+@media screen and (max-width: 425px){
+
+    nav, .quick-access{
+        flex-direction: column;
+        justify-content: center;
+        /* margin-left: 50px; */
+        
+    }
+    /* .logo{
+        margin-left: 350px;
+    }
+    .right{
+        margin-left: 300px;
+    } */
+    .banner{
+        flex-direction: column-reverse;
+        box-shadow: none;
+    }
+    .text h2{
+        display: inline-block;
+    }
+    .videos{
+        flex-direction: column;
+    }
+    .vid-section{
+        width: 100%;
+    }
+    .top-buttons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    .bottom-buttons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+    }
+    .text{
+        margin-left: 300px;
+        width: 100%;
+    }
+    .many-buttons{
+        width: 100%;
+    }
+    .top img{
+        left: -1px;
+    }
+    footer{
+        width: 900px;
+
+    }
+
+    
+}
+
 
 
