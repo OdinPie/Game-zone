@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*-------------- NAVBAR-------- */
+.logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .logo img{
+    width: 86.041px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-right: 0px;
+
+ }
+.quick-access{
+    display: flex;
+    align-items: center;
+    color: #3C354F;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+.follow{
+    display: flex;
+    align-items: center;
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+
+}
+.follow > *{
+    margin: 10px;
+}
+a{
+    text-decoration: none; 
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    padding: 16px;
+}
+.logo > *, .quick-access > *{
+    margin: 16px;
+}
+
+/* ----------Banner-------------- */
+
+.banner{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    gap: 40px;
+}
+.left{
+    background-image: url(images/Group\ 14.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    width: 901px;
+    height: 700px;
+}
+.left h1{
+    text-align: center;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+#play{
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.lines{
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+button{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+border: none;
+margin: 12px;
+}
+.butt1{
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.butt2{
+    background: #4EC5F7;
+}
+.right img{
+    width: 590px;
+    height: 100%;
+}
+
