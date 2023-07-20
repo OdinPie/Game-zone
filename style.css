@@ -317,18 +317,25 @@ i{
 
 @media screen and (max-width: 425px){
 
-    nav, .quick-access{
+    nav{
         flex-direction: column;
         justify-content: center;
-        /* margin-left: 50px; */
+        margin: 100px 0px 100px 450px;
+        transform: scale(1.5);
         
     }
-    /* .logo{
-        margin-left: 350px;
+    .quick-access{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .follow{
+        white-space: nowrap;
     }
     .right{
-        margin-left: 300px;
-    } */
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+    }
     .banner{
         flex-direction: column-reverse;
         box-shadow: none;
