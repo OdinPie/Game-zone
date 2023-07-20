@@ -385,10 +385,18 @@ i{
         margin-bottom: 50px;
     }
     .text{
-        margin-left: 300px;
+        margin-left: 250px;
         width: 100%;
         white-space: nowrap;
 
+    }
+
+    .videos img{
+        width: 600px;
+        height: 100%;
+    }
+    .vid-section{
+        margin-bottom: 20px;
     }
     .many-buttons{
         width: 100%;
