@@ -459,6 +459,30 @@ i{
         justify-content: start;
         gap: 300px;
     }
+    .banner{
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .right{
+        margin-left: 250px;
+    }
+    .videos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    .funny-videos{
+        width: 1200px;
+        /* margin-left: 300px; */
+    }
+    .text{
+        white-space: nowrap;
+    }
+    .play-instantly{
+        width: 1200px;
+
+    }
+
 }
 
 
