@@ -243,11 +243,14 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
 .many-buttons{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 120px 240px;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: end;
-    gap: 10px;
+    gap: 10px; */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
 }
 .row{
     display: grid;
@@ -266,7 +269,13 @@ background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     font-weight: 600;
     line-height: normal;
 }
-
+#rolegame{
+    margin-left: 200px;
+}
+#actiongame{
+    position: relative;
+    left: 150px;
+}
 /* ---------Footer-------- */
 
 footer{
@@ -306,7 +315,7 @@ i{
 .videos :hover .overlay{
     opacity: 1;
 }
-.row :hover{
+.many-buttons :hover{
     border: 1px solid #FF42A5;
 }
 .btn :hover{
@@ -410,7 +419,13 @@ i{
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .row{
+    #rolegame{
+        margin-left: 0px;
+    }
+    #actiongame{
+        position: static;
+    }
+    .many-buttons{
 
     grid-template-columns: repeat(3, 1fr);
 
